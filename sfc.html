@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sistema Financiero Colombiano – Definiciones</title>
+<style>
+  :root {
+    --purple: #6D28D9; --blue: #1E40AF; --teal: #0F766E;
+    --green: #166534; --red: #9F1239; --amber: #92400E; --gray: #374151;
+    --bg: #FAFAFA; --card: #fff; --border: #E5E7EB;
+    --text: #111827; --muted: #6B7280;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111827; --card:#1F2937; --border:#374151; --text:#F9FAFB; --muted:#9CA3AF; }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); padding: 16px; max-width: 680px; margin: 0 auto; }
+
+  header { text-align: center; padding: 28px 0 20px; }
+  header h1 { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
+  header p { font-size: 13px; color: var(--muted); }
+
+  .section { margin-bottom: 24px; }
+  .section-title {
+    font-size: 13px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: .06em; padding: 6px 12px; border-radius: 6px;
+    margin-bottom: 10px; display: inline-block;
+  }
+
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 13px 15px; margin-bottom: 8px;
+    border-left: 4px solid transparent;
+  }
+  .card h3 { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+  .card p  { font-size: 12.5px; color: var(--muted); line-height: 1.55; }
+
+  /* colores por sección */
+  .s-purple .section-title { background: #EDE9FE; color: var(--purple); }
+  .s-purple .card { border-left-color: var(--purple); }
+  .s-blue .section-title   { background: #DBEAFE; color: var(--blue); }
+  .s-blue .card             { border-left-color: var(--blue); }
+  .s-teal .section-title   { background: #CCFBF1; color: var(--teal); }
+  .s-teal .card             { border-left-color: var(--teal); }
+  .s-green .section-title  { background: #DCFCE7; color: var(--green); }
+  .s-green .card            { border-left-color: var(--green); }
+  .s-red .section-title    { background: #FFE4E6; color: var(--red); }
+  .s-red .card              { border-left-color: var(--red); }
+  .s-amber .section-title  { background: #FEF3C7; color: var(--amber); }
+  .s-amber .card            { border-left-color: var(--amber); }
+  .s-gray .section-title   { background: #F3F4F6; color: var(--gray); }
+  .s-gray .card             { border-left-color: var(--gray); }
+
+  @media (prefers-color-scheme: dark) {
+    .s-purple .section-title { background:#2E1065; }
+    .s-blue .section-title   { background:#0F172A; }
+    .s-teal .section-title   { background:#042F2E; }
+    .s-green .section-title  { background:#052E16; }
+    .s-red .section-title    { background:#3D0011; }
+    .s-amber .section-title  { background:#2D1B05; }
+    .s-gray .section-title   { background:#1F2937; }
+  }
+
+  footer { text-align: center; padding: 24px 0 12px; font-size: 11px; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📊 Sistema Financiero Colombiano</h1>
+  <p>Definiciones para el Taller Final 30% · Docente: Keren Brunal Ramos</p>
+</header>
+
+<!-- 1. ESTRUCTURA -->
+<div class="section s-purple">
+  <div class="section-title">🏦 Estructura financiera</div>
+
+  <div class="card">
+    <h3>Sistema Financiero Colombiano</h3>
+    <p>Conjunto de instituciones y políticas que regulan la intermediación financiera: conectan a quienes tienen dinero de sobra (superavitarios) con quienes lo necesitan (deficitarios).</p>
+  </div>
+  <div class="card">
+    <h3>Establecimientos de crédito</h3>
+    <p>Captan dinero del público (cuentas de ahorro, CDTs) y lo prestan mediante créditos y operaciones activas.</p>
+  </div>
+  <div class="card">
+    <h3>Bancos de primer piso</h3>
+    <p>Tienen trato directo con los clientes. Captan ahorros y otorgan créditos hipotecarios, de consumo y comerciales.</p>
+  </div>
+  <div class="card">
+    <h3>Bancos de segundo piso</h3>
+    <p>Creados por el Estado para apoyar sectores específicos. No atienden al público directamente sino a través de los bancos de primer piso. Ej.: Bancóldex, FINDETER, FINAGRO, ICETEX.</p>
+  </div>
+  <div class="card">
+    <h3>Corporaciones financieras</h3>
+    <p>Trasladan capitales para promover la creación, fusión y expansión de empresas. Conceden préstamos a proyectos productivos.</p>
+  </div>
+  <div class="card">
+    <h3>Cooperativas financieras</h3>
+    <p>Reconocidas como establecimientos de crédito (Ley 454/1998). Solo operan con sus asociados y requieren permiso previo de la SFC.</p>
+  </div>
+  <div class="card">
+    <h3>Sociedades de servicios financieros</h3>
+    <p>Brindan asesoría financiera especializada sin actuar como intermediarios de crédito. Incluyen fiduciarias, AFP, almacenes de depósito y comisionistas de bolsa.</p>
+  </div>
+  <div class="card">
+    <h3>Instituciones Oficiales Especiales (IOE)</h3>
+    <p>Bancos del Estado sin atención al público general. Apoyan sectores productivos estratégicos con crédito de fomento. Ej.: Banco de la República, FOGAFIN, BANCOLDEX.</p>
+  </div>
+  <div class="card">
+    <h3>Entidades aseguradoras</h3>
+    <p>Realizan operaciones de seguros y reaseguros. Los intermediarios son corredores y agencias de seguros y reaseguros.</p>
+  </div>
+  <div class="card">
+    <h3>Sociedades de capitalización</h3>
+    <p>Entregan un capital a sus miembros a plazo fijo o mediante sorteos periódicos, a cambio de aportes graduales. Incentivan el ahorro.</p>
+  </div>
+</div>
+
+<!-- 2. BANCO DE LA REPÚBLICA -->
+<div class="section s-blue">
+  <div class="section-title">🏛️ Banco de la República</div>
+
+  <div class="card">
+    <h3>Banco de la República</h3>
+    <p>Banco central de Colombia creado por la Ley 25 de 1923 (Misión Kemmerer). Emite la moneda, controla la inflación, administra reservas internacionales y es el banquero del Estado.</p>
+  </div>
+  <div class="card">
+    <h3>Emisión de moneda</h3>
+    <p>Función exclusiva del Banco de la República: emitir los billetes y monedas de curso legal en Colombia.</p>
+  </div>
+  <div class="card">
+    <h3>Control de la inflación</h3>
+    <p>Mediante la tasa de intervención mantiene la inflación en niveles compatibles con el crecimiento económico. Modelo: inflación objetivo.</p>
+  </div>
+  <div class="card">
+    <h3>Reservas internacionales</h3>
+    <p>Administra las reservas de divisas del país, garantizando estabilidad cambiaria y respaldo externo.</p>
+  </div>
+  <div class="card">
+    <h3>Autoridad cambiaria</h3>
+    <p>Interviene en el mercado de divisas para controlar la volatilidad de la tasa de cambio y proteger la economía de choques externos.</p>
+  </div>
+  <div class="card">
+    <h3>Prestamista de última instancia</h3>
+    <p>Suministra liquidez transitoria a entidades de crédito en apuros. También actúa como agente fiscal del Gobierno.</p>
+  </div>
+</div>
+
+<!-- 3. ENTES DE CONTROL -->
+<div class="section s-teal">
+  <div class="section-title">🔍 Entes de control</div>
+
+  <div class="card">
+    <h3>Superintendencia Financiera (SFC)</h3>
+    <p>Ente oficial de inspección, vigilancia y control de bancos, aseguradoras y mercado de valores. Creada en 2005 (Decreto 4327) por fusión de la Superintendencia Bancaria y la de Valores.</p>
+  </div>
+  <div class="card">
+    <h3>Ministerio de Hacienda y Crédito Público</h3>
+    <p>Define y ejecuta la política económica del país: fiscal, tributaria, crediticia y presupuestal.</p>
+  </div>
+  <div class="card">
+    <h3>Superintendencia de Sociedades</h3>
+    <p>Inspecciona y controla a las sociedades y grupos económicos del país. Ayuda a las empresas con problemas financieros.</p>
+  </div>
+  <div class="card">
+    <h3>Superintendencia de Economía Solidaria</h3>
+    <p>Supervisa cooperativas, asociaciones y fondos del sector solidario, verificando el cumplimiento de sus estatutos y normas.</p>
+  </div>
+  <div class="card">
+    <h3>FOGAFIN</h3>
+    <p>Fondo de Garantías de Instituciones Financieras. Asegura la confianza de los depositantes. Ante crisis de liquidez recomienda fusiones, capitalización, oficialización o liquidación.</p>
+  </div>
+  <div class="card">
+    <h3>Unidad de Regulación Financiera (URF)</h3>
+    <p>Prepara la normatividad del sector financiero, bursátil y asegurador para ser expedida por el Gobierno Nacional.</p>
+  </div>
+  <div class="card">
+    <h3>Autorregulador del Mercado de Valores (AMV)</h3>
+    <p>Entidad privada sin ánimo de lucro que regula y supervisa el mercado de valores en Colombia. Emite normas y sanciona incumplimientos.</p>
+  </div>
+</div>
+
+<!-- 4. CENTRALES DE INFORMACIÓN -->
+<div class="section s-green">
+  <div class="section-title">📁 Centrales de información financiera</div>
+
+  <div class="card">
+    <h3>Centrales de información financiera</h3>
+    <p>Organizaciones privadas que recopilan el historial crediticio de personas y empresas. Son el primer filtro que usan las entidades para decidir si otorgan crédito. Vigiladas por la SIC.</p>
+  </div>
+  <div class="card">
+    <h3>DataCrédito</h3>
+    <p>Recopila y actualiza el historial crediticio de personas naturales y jurídicas. No aprueba ni rechaza créditos; actualiza datos mensualmente.</p>
+  </div>
+  <div class="card">
+    <h3>CIFIN</h3>
+    <p>Central de Información Financiera de Asobancaria (fundada 1981). Todos los usuarios del sistema financiero tienen registro. Historial positivo facilita el acceso al crédito.</p>
+  </div>
+  <div class="card">
+    <h3>Procrédito</h3>
+    <p>Central de riesgo más importante del sector real. Fundada en 1953, almacena conductas de pago de comerciantes y personas en 38 segmentos del mercado.</p>
+  </div>
+  <div class="card">
+    <h3>Habeas Data</h3>
+    <p>Derecho constitucional (Art. 15, Constitución 1991) de toda persona a conocer, actualizar y rectificar su información en bases de datos públicas o privadas. Ley 1266 de 2008 y Ley 1581 de 2012.</p>
+  </div>
+</div>
+
+<!-- 5. LAVADO DE ACTIVOS -->
+<div class="section s-red">
+  <div class="section-title">⚠️ Lavado de activos</div>
+
+  <div class="card">
+    <h3>Lavado de activos</h3>
+    <p>Transacciones para ocultar el origen ilícito de dinero o bienes. Afecta gravemente la economía. En Colombia lo controla la UIAF (Ley 526/1999, actualizada Ley 1621/2013).</p>
+  </div>
+  <div class="card">
+    <h3>1. Colocación</h3>
+    <p>Introducir el dinero ilícito al sistema financiero: compra de bienes raíces, casinos, consignaciones fraccionadas, moneda extranjera.</p>
+  </div>
+  <div class="card">
+    <h3>2. Estratificación</h3>
+    <p>Borrar el rastro mediante múltiples transacciones superpuestas: empresas fachada, transferencias a paraísos fiscales, giros y cheques.</p>
+  </div>
+  <div class="card">
+    <h3>3. Integración</h3>
+    <p>El dinero ya «limpio» regresa al mercado como inversiones, créditos o exportaciones ficticias. En esta etapa es casi imposible rastrearlo.</p>
+  </div>
+  <div class="card">
+    <h3>UIAF</h3>
+    <p>Unidad de Información y Análisis Financiero. Recibe, analiza y procesa los reportes de operaciones sospechosas para combatir el lavado y la financiación del terrorismo.</p>
+  </div>
+  <div class="card">
+    <h3>SARLAFT</h3>
+    <p>Sistema de Administración del Riesgo de Lavado de Activos y Financiación del Terrorismo. Obligatorio para todas las entidades vigiladas por la SFC.</p>
+  </div>
+  <div class="card">
+    <h3>Señales de alerta</h3>
+    <p>Transacciones inusuales que se comparan con el perfil del cliente (monto, frecuencia, canal). Si se salen del perfil, se catalogan como operación sospechosa y se reportan.</p>
+  </div>
+</div>
+
+<!-- 6. BANCA MULTILATERAL -->
+<div class="section s-amber">
+  <div class="section-title">🌎 Banca multilateral</div>
+
+  <div class="card">
+    <h3>Banca multilateral</h3>
+    <p>Bancos de desarrollo que financian proyectos en países emergentes con créditos favorables y asesoría técnica.</p>
+  </div>
+  <div class="card">
+    <h3>BID – Banco Interamericano de Desarrollo</h3>
+    <p>Creado en 1959. Principal fuente de financiamiento multilateral para América Latina y el Caribe. Colombia es miembro fundador.</p>
+  </div>
+  <div class="card">
+    <h3>Banco Mundial</h3>
+    <p>Institución creada en 1944 (189 países). Lucha contra la pobreza y apoya el desarrollo de países de ingresos medianos y bajos.</p>
+  </div>
+  <div class="card">
+    <h3>CAF – Corporación Andina de Fomento</h3>
+    <p>Creada por el Pacto Andino (Colombia, Venezuela, Ecuador, Perú, Bolivia). Presta sin exigir requisitos adicionales a países con dificultades crediticias.</p>
+  </div>
+</div>
+
+<!-- 7. ELEMENTOS -->
+<div class="section s-gray">
+  <div class="section-title">⚙️ Elementos del sistema</div>
+
+  <div class="card">
+    <h3>Instituciones financieras</h3>
+    <p>Median entre quienes tienen dinero disponible y quienes lo necesitan. Incluyen bancos, aseguradoras, fondos de pensiones y entidades reguladoras.</p>
+  </div>
+  <div class="card">
+    <h3>Activos financieros</h3>
+    <p>Instrumentos (títulos) que el sistema usa para mover recursos: CDTs, bonos, acciones, cuentas de ahorro, letras del tesoro.</p>
+  </div>
+  <div class="card">
+    <h3>Mercado financiero</h3>
+    <p>Espacio físico o electrónico donde se intercambian activos financieros y se fijan sus precios. Conecta a oferentes y demandantes de recursos.</p>
+  </div>
+  <div class="card">
+    <h3>Agentes superavitarios</h3>
+    <p>Personas o empresas con excedentes de dinero que depositan sus ahorros en el sistema financiero a cambio de intereses.</p>
+  </div>
+  <div class="card">
+    <h3>Agentes deficitarios</h3>
+    <p>Personas o empresas que necesitan recursos ajenos para consumir o invertir. Pagan una tasa de interés por los fondos obtenidos.</p>
+  </div>
+</div>
+
+<footer>Sistema Financiero Colombiano · Material basado en documentos SENA – FAVA</footer>
+</body>
+</html>
